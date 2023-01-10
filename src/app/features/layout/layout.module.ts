@@ -8,6 +8,7 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     SidenavComponent,
     NotfoundComponent,
     FooterComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    LoginComponent
   ],
   imports: [
     RouterModule,
