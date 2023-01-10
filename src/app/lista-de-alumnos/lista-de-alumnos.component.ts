@@ -10,7 +10,7 @@ import { Student } from '../core/models/student';
   styleUrls: ['./student-table.component.scss']
 })
 
-export class StudentTableComponent {
+export class ListaDeAlumnosComponent {
   students: Student[] = [
     new Student(1, 'Juan', 'Pérez', true),
     new Student(2, 'Pablo', 'Franchescolli', true),
