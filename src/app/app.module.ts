@@ -12,6 +12,7 @@ import { MainComponent } from './features/layout/pages/main/main.component';
 import { NotfoundComponent } from './features/layout/pages/notfound/notfound.component';
 import { ListaDeAlumnosComponent } from './lista-de-alumnos/lista-de-alumnos.component';
 import { ListaDeCursosComponent } from './lista-de-cursos/lista-de-cursos.component';
+import { StudentDialogComponent } from './shared/components/student-dialog/student-dialog.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ListaDeCursosComponent } from './lista-de-cursos/lista-de-cursos.compon
     NotfoundComponent,
     ListaDeAlumnosComponent,
     ListaDeCursosComponent,
+    StudentDialogComponent,
   ],
   imports: [
     BrowserModule,

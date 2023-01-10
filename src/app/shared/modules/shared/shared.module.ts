@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FooterComponent } from '../../footer/footer.component';
 import { SidenavComponent } from '../../sidenav/sidenav.component';
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
+import { StudentDialogComponent } from '../../components/student-dialog/student-dialog.component';
 
 
 
@@ -13,6 +14,7 @@ import { AngularMaterialModule } from '../angular-material/angular-material.modu
     FooterComponent,
     SidenavComponent,
     AngularMaterialModule,
+    StudentDialogComponent,
   ],
   exports: [
     SharedModule,
